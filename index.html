@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="them-color" content="#000" />
+    <meta property="og:site_name" content="web technology" />
+    <meta content="website" property="og:type" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>HTML</legend>
+      <h1>Manish Pudasaini</h1>
+      <div class="image">
+        <img src="gallery/1.png" alt="" />
+      </div>
+      <p>
+        <article>
+        ipsum dolor sit amet consectetur adipisicing elit. Veniam ad
+        necessitatibus minima tempora quis? Distinctio aut aperiam quasi veniam,
+        necessitatibus delectus sit placeat in facere modi expedita illo soluta.
+        Expedita? Quis atque consequatur, distinctio veniam voluptates
+        cupiditate eaque ipsam exercitationem laborum. Mollitia debitis autem,
+        est molestiae quia repellat voluptas ipsa blanditiis eveniet ut quaerat!
+        Magnam ducimus laudantium aut voluptate officia. Nisi, maiores dicta
+        laborum ratione optio soluta culpa laudantium at quam architecto
+        praesentium officia tempore facilis! Nisi accusamus est atque illum,
+        voluptate ad fugit rem optio exercitationem cum dolor recusandae.
+        Consequatur facilis, voluptatem veniam eaque officiis impedit rerum nemo
+        a, voluptatibus laborum maxime iste id corporis praesentium blanditiis
+        magnam at. Tempora sint asperiores laboriosam porro aliquid quod quasi
+        saepe maiores. Assumenda, ratione! Maiores consectetur sapiente fuga
+        nemo dignissimos laborum, recusandae nam quas repellendus. Nesciunt
+        earum laudantium quis facere nostrum placeat, commodi officia harum odit
+        voluptates atque eligendi deleniti exercitationem qui? Doloribus
+        voluptas eum amet, laudantium praesentium maxime assumenda harum quas!
+        Tenetur reprehenderit nostrum iure omnis, maiores delectus provident.
+        Tempora quo eius magni voluptate molestias culpa esse impedit, corporis
+        ipsam sequi. Atque, corrupti deserunt! Dolore, distinctio culpa? Unde
+        beatae neque ad, ducimus reiciendis necessitatibus dolor in quasi
+        doloremque nisi! Ad id inventore velit ducimus, error illo optio modi
+        expedita in quidem. Sint voluptatibus suscipit modi omnis ipsa tenetur
+        rem velit repellat aut! Modi impedit nihil corrupti facere
+        exercitationem aliquam a quas reiciendis, provident iste voluptas
+        voluptatibus debitis perspiciatis. Voluptas, harum cum! Sed, esse ullam
+        exercitationem, repudiandae hic architecto maiores perspiciatis enim
+        assumenda reprehenderit odio tempora sapiente fuga libero quae quidem
+        provident illum inventore explicabo minima, eligendi velit. Itaque enim
+        reiciendis nesciunt! Temporibus possimus, similique ipsam in harum,
+        mollitia, ad repellendus nesciunt sed reiciendis numquam nihil quod
+        inventore. Aspernatur aperiam illum nemo dolor? Rem quo praesentium quam
+        vero ratione inventore quia eveniet.
+        </article> 
+      </p>
+    </fieldset>
+
+    <!-- Student Table -->
+    <fieldset class="student">
+      <legend>Student detail</legend>
+      <div class="detail">
+        <table>
+          <tr>
+            <th>Roll.No</th>
+            <th>Name</th>
+            <th>Professsion</th>
+          </tr>
+          <tr>
+            <td>01.</td>
+            <td>Manish Pudasaini</td>
+            <td>Fottball player</td>
+          </tr>
+          <tr>
+            <td>02.</td>
+            <td>Shashi panta</td>
+            <td>Cricket player</td>
+          </tr>
+          <tr>
+            <td>03.</td>
+            <td>Samir bhandari</td>
+            <td>Basketball player</td>
+          </tr>
+        </table>
+      </div>
+    </fieldset>
+
+    <!-- Video & Audio-->
+    <fieldset class="video">
+      <legend>Video & Audio</legend>
+      <div class="video">
+        <video width="320" height="240" controls>
+          <source src="video/mov_bbb.mp4" type="video/mp4" />
+        </video>
+        <audio controls>
+          <source src="audio/horse.ogv" type="audio/ogv" />
+        </audio>
+      </div>
+    </fieldset>
+
+    <!-- Student Form-->
+    <fieldset class="form">
+      <legend>Html Form</legend>
+      <form id="studentform">
+        <label>Forms in Html</label>
+        <div>
+          <input
+            type="text"
+            placeholder="First Name"
+            id="firstname"
+            class="inputClass"
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            id="lastname"
+            class="inputClass"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Enter username"
+            id="username"
+            class="inputClass"
+          />
+          <input
+            type="password"
+            placeholder="Enter password"
+            id="password"
+            class="inputClass"
+          />
+        </div>
+        <div class="sel">
+          <div class="option">
+            <span>Gender</span>
+            <span>Date of Birth</span>
+          </div>
+          <select>
+            <option value="">Gender</option>
+            <option value="">Male</option>
+            <option value="">female</option>
+            <option value="">Other</option>
+          </select>
+          <input class="date" type="date" />
+        </div>
+        <div class="check">
+          <input required type="checkbox" />
+          <span>Accept & Continue</span>
+        </div>
+        <div class="submit">
+          <button type="submit" id="sub" onclick="newPage()">Submit</button>
+        </div>
+        <div>
+          <input type="file" />
+        </div>
+        <div>
+          <input type="color" name="" id="" />
+        </div>
+        <div>
+          <input id="same-id" onchange="newPage()" />
+        </div>
+      </form>
+    </fieldset>
+    <!-- iframe-->
+    <fieldset class="iframe">
+      <legend>iframe</legend>
+      <iframe
+        src="https://www.youtube.com/embed/XKyyM1VWtUE"
+        height="200"
+        width="300"
+        title="description"
+      ></iframe>
+    </fieldset>
+
+    <!--Section-->
+    <fieldset class="sec">
+      <legend>Section</legend>
+      <header>
+        <nav class="nav">
+          <button>Home</button>
+          <button>About</button>
+          <button>Contact</button>
+        </nav>
+      </header>
+      <section>
+        <h1>About yourself</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+          quod reprehenderit corporis maiores eaque perferendis nemo iusto iste
+          beatae ipsum doloremque, aliquid veritatis enim aut a id perspiciatis,
+          accusamus placeat?
+        </p>
+
+        <h2>Education</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab
+          perspiciatis error, deserunt repellendus maiores quisquam at sequi
+          dolores! Et debitis consequatur quis laboriosam optio architecto quae,
+          omnis inventore doloremque.
+        </p>
+      </section>
+
+      <footer>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          explicabo iste sed harum ad eius beatae totam eos at, cumque nam
+          laborum tempora libero dolore voluptas corporis ab deleniti molestiae.
+        </p>
+      </footer>
+    </fieldset>
+    <fieldset class="canvas">
+      <legend>Canvas</legend>
+      <canvas id="mycanvas"> </canvas>
+      <canvas id="myCanvas"></canvas>
+    </fieldset>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
